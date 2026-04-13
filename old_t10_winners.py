@@ -20,6 +20,7 @@ con.close()
 
 # %%
 df_top10.plot(x='winner_name', y='tVitorias', kind='bar')
+plt.title("Top 10 Pilotos com mais vitorias")
 plt.show()
 
 # %%
