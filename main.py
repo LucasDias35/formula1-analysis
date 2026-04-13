@@ -10,7 +10,7 @@ def main():
 
     top10 = t10_winners()
 
-    print(f"O maior vencedor da historia da formula 1 é o piloto {top10['winner_name'].iloc[0]}")
+    print(f"The most winning driver in F1 history is: {top10['winner_name'].iloc[0]} with {top10['tVitorias'].iloc[0]} wins")
 
     plot_t10(top10)
 
