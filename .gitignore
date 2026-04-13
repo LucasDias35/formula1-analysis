@@ -1,2 +1,4 @@
 f1_winners.db
 top10_pilotos.csv
+__pycache__/
+*.pyc
